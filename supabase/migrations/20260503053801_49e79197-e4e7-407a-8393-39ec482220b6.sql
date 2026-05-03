@@ -1,0 +1,1 @@
+ALTER TABLE public.profiles_found ADD COLUMN IF NOT EXISTS status text NOT NULL DEFAULT 'FOUND';
